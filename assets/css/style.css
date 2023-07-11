@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 240px 0;
+    padding: 50px 200px 0;
     background-color: rgba(229, 84, 115, 0.10);
 }
 
@@ -39,6 +39,79 @@
 /* --------------------------- section 1  ----------------------------------- */
 
 .mm-section-2 {
-    padding: 120px 240px 0;
-    
+    padding: 120px 200px 0;
+
 }
+
+.mm-section-2 h1,
+.mm-section-2 p {
+    text-align: center;
+}
+
+.mm-section-2 p {
+    margin-top: 24px;
+}
+
+/* ==== section 2 box ===  */
+.mm-sec-2-box {
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+}
+
+.mm-sec-2-box-inner-item {
+    flex-basis: 33.33%;
+}
+
+/* section  box inner item one  */
+.mm-sec-2-box-inner-item .item-1 {
+    margin-right: 12px;
+}
+
+.mm-sec-2-box-inner-item .item-2 {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.mm-sec-2-box-inner-item .item-3 {
+    margin-left: 12px;
+}
+
+.mm-sec-2-box-inner-item .mm-sec-2-box-content figure {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    padding: 100px 40px 0;
+}
+
+.mm-sec-2-box-inner-item .item-1 figure {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.mm-sec-2-box-inner-item .item-2 figure {
+    background-color: rgba(5, 152, 160, 0.15);
+}
+
+.mm-sec-2-box-inner-item .item-3 figure {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.mm-sec-2-box-inner-item .mm-sec-2-box-content figure img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.mm-sec-2-box-inner-item .mm-sec-2-box-content a {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    color: #272727;
+    margin-top: 25px;
+}
+
+
