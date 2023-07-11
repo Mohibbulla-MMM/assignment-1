@@ -1,11 +1,12 @@
 /* --------------------------- section 1  ----------------------------------- */
 .mm-section-1 {
     width: 100%;
-    height: 100vh;
+    height: 850px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 200px 0;
+    padding-top: 50px;
+    padding-bottom: 0;
     background-color: rgba(229, 84, 115, 0.10);
 }
 
@@ -31,15 +32,13 @@
 
 .section-1-right img {
     display: inline-block;
-    width: 90%;
-    max-width: 500px;
-
+    max-width: 100%;
 }
 
 /* --------------------------- section 2  ----------------------------------- */
 
 .mm-section-2 {
-    padding: 120px 200px 0;
+    padding-top: 120px;
 }
 
 .mm-section-2 h1,
@@ -79,7 +78,9 @@
 
 /* section 2 box img paddin and others  */
 .mm-sec-2-box-inner-item .mm-sec-2-box-content figure {
-    min-height: 300px;
+    /* max-width: 460px; */
+    /* max-height: 520px;  */
+    height: 520px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -94,6 +95,9 @@
 }
 
 .mm-sec-2-box-inner-item .item-2 figure {
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
     background-color: rgba(5, 152, 160, 0.15);
 }
 
@@ -111,6 +115,7 @@
 .mm-sec-2-box-inner-item .mm-sec-2-box-content a {
     display: block;
     font-size: 24px;
+    line-height: 1.7em;
     font-weight: bold;
     text-align: center;
     text-decoration: underline;
@@ -123,7 +128,8 @@
 .mm-section-3 {
     width: 100%;
     height: 620px;
-    padding: 100px 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     margin: 100px 0;
     background-color: rgba(229, 84, 115, 0.05);
     display: flex;
@@ -145,6 +151,7 @@
     margin: 30px 0;
 }
 
+/* section 3 left stde bottom button  */
 .mm-sec-3-l-btn {
     display: flex;
     justify-content: center;
@@ -153,14 +160,17 @@
 /* section 3 right column  */
 .mm-section-3-right {
     flex-basis: 40%;
-    background-color: black;
 }
 
 .mm-section-3-right figure {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
+
+/* secion 3 right column  image  */
 .mm-section-3-right img {
     display: inline-block;
     max-height: 420px;
 }
+
+/* --------------------------- section 4 ----------------------------------- */

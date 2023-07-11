@@ -22,6 +22,12 @@ a {
     text-decoration: none;
 }
 
+/* section left and right padding  */
+.rtl-padding {
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
 /* achor tag used  */
 .mm-global-pink-btn {
     display: inline-block;
